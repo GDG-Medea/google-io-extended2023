@@ -6,7 +6,7 @@ const colors = require("tailwindcss/colors")
 // const colors = {
 //   ...defaultColors,
 //   ...{
-//     ggreen: {
+//     gdggreen: {
 //       100: "#ccf1dc",
 //       200: "#99e3b9",
 //       300: "#66d597",
@@ -17,7 +17,7 @@ const colors = require("tailwindcss/colors")
 //       800: "#004a20",
 //       900: "#002510"
 //     },
-//     gred: {
+//     gdgred: {
 //       100: "#ffd0d6",
 //       200: "#ffa1ad",
 //       300: "#ff7384",
@@ -28,7 +28,7 @@ const colors = require("tailwindcss/colors")
 //       800: "#660814",
 //       900: "#33040a"
 //     },
-//     gblue: {
+//     gdgblue: {
 //       100: "#dee1ff",
 //       200: "#bdc3ff",
 //       300: "#9da5ff",
@@ -39,7 +39,7 @@ const colors = require("tailwindcss/colors")
 //       800: "#242a66",
 //       900: "#121533"
 //     },
-//     gyellow: {
+//     gdgyellow: {
 //       100: "#fff3cc",
 //       200: "#ffe799",
 //       300: "#ffdc66",
@@ -65,17 +65,16 @@ export default withMT({
   theme: {
     screens: {
       'tablet': '1024px',
- 
-      
+
+
     },
-  },
 
     extend: {
       colors: {
         ...colors,
         bglight: "#ffffff",
         bgdark: "#202124",
-        ggreen: {
+        gdggreen: {
           100: "#ccf1dc",
           200: "#99e3b9",
           300: "#66d597",
@@ -86,7 +85,7 @@ export default withMT({
           800: "#004a20",
           900: "#002510"
         },
-        gred: {
+        gdgred: {
           100: "#ffd0d6",
           200: "#ffa1ad",
           300: "#ff7384",
@@ -97,18 +96,19 @@ export default withMT({
           800: "#660814",
           900: "#33040a"
         },
-        gblue: {
-          100: "#dee1ff",
-          200: "#bdc3ff",
-          300: "#9da5ff",
-          400: "#7c87ff",
-          500: "#5b69ff",
-          600: "#4954cc",
-          700: "#373f99",
-          800: "#242a66",
-          900: "#121533"
+        gdgblue: {
+          100: "#d9e8ff",
+          200: "#b3d2ff",
+          300: "#8ebbff",
+          400: "#68a5ff",
+          500: "#428eff",
+          600: "#3572cc",
+          700: "#285599",
+          800: "#1a3966",
+          900: "#0d1c33"
         },
-        gyellow: {
+
+        gdgyellow: {
           100: "#fff3cc",
           200: "#ffe799",
           300: "#ffdc66",
@@ -120,10 +120,10 @@ export default withMT({
           900: "#332700"
         },
       },
-
     },
-    plugins: [],
-    darkMode: ["class"]
-  }
+
+  },
+  plugins: [],
+  darkMode: ["class"]
 }
 )
