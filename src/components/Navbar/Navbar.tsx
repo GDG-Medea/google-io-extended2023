@@ -7,7 +7,7 @@ const Navbar = () => {
                     <div className="">Google I/O Extended</div>
                 </div>
                 <div>
-                    <button className="px-4 p-2 rounded-xl hover:border-white border-4 border-transparent  hover:bg-ggreen-600 dark:hover:bg-ggreen-500 text-white dark:bg-ggreen-400 bg-ggreen-500">
+                    <button className="px-4 p-2 rounded-xl hover:border-white border-4 border-transparent  hover:bg-ggreen-600 dark:hover:bg-ggreen-500 dark:text-white dark:bg-ggreen-500 bg-ggreen-500">
                         <a href="https://linktoform.com">Join Us here!</a>
                     </button>
                 </div>
