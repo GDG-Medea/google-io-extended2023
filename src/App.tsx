@@ -13,14 +13,9 @@ function App() {
   return (
     <div className='w-full h-full   '>
       <Navbar />
-      <main className="max-w-[1640px] m-auto">
+      <main className="max-w-[1640px] m-auto flex flex-col justify-start items-center gap-4 ">
         <Wrap />
-        <div id="content" className='p-2 flex flex-col items-center justify-center'>
-          <div className='w-full lg:w-2/5 flex flex-col items-center gap-4'>
-            <div className='text-4xl font-bold'>Meet Our speakers</div>
-            <Carousel />
-          </div>
-        </div>
+        <Carousel />
       </main >
     </div>
 
