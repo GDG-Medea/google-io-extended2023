@@ -6,7 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    screens: {
+      'tablet': '1024px',
+ 
+      
+    },
   },
   plugins: [],
+  darkMode: 'class'
 }
 

@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Navbar from './components/Navbar/Navbar'
+
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Wrap from "./components/Wrap";
 
 function App() {
-
   return (
     <>
       <Navbar />
+      <main className="max-w-[1640px] m-auto">
+        <Wrap />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
