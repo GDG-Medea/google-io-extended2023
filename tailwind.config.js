@@ -1,24 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 const withMT = require("@material-tailwind/react/utils/withMT");
 // const { colors: defaultColors } = require('tailwindcss/defaultTheme')
-const colors = require("tailwindcss/colors")
+const colors = require("tailwindcss/colors");
 
-export default withMT({
+export default ({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
     "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
-
-
   ],
   theme: {
     screens: {
-      'tablet': '1024px',
-
-
+      tablet: "1024px",
     },
-
     extend: {
       colors: {
         ...colors,
@@ -33,7 +28,7 @@ export default withMT({
           600: "#009441",
           700: "#006f31",
           800: "#004a20",
-          900: "#002510"
+          900: "#002510",
         },
         gdgred: {
           100: "#ffd0d6",
@@ -44,7 +39,7 @@ export default withMT({
           600: "#cc1128",
           700: "#990d1e",
           800: "#660814",
-          900: "#33040a"
+          900: "#33040a",
         },
         gdgblue: {
           100: "#d9e8ff",
@@ -55,7 +50,7 @@ export default withMT({
           600: "#3572cc",
           700: "#285599",
           800: "#1a3966",
-          900: "#0d1c33"
+          900: "#0d1c33",
         },
 
         gdgyellow: {
@@ -67,13 +62,11 @@ export default withMT({
           600: "#cc9d00",
           700: "#997600",
           800: "#664e00",
-          900: "#332700"
+          900: "#332700",
         },
       },
     },
-
   },
   plugins: [],
-  darkMode: ["class"]
-}
-)
+  darkMode: "class",
+});
