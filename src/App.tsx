@@ -1,14 +1,15 @@
-
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Wrap from "./components/Wrap";
+import Wrap from "./components/GGLIO-Wrap/Wrap";
+import JoinDc from "./components/Discord/JoinDc";
+import Topics from "./components/Topics/Topics";
 
 function App() {
   return (
     <>
-      <Navbar />
       <main className="max-w-[1640px] m-auto">
         <Wrap />
+        <JoinDc />
+        <Topics />
       </main>
     </>
   );

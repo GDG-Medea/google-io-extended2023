@@ -1,8 +1,9 @@
-import wrapImg from "../../public/wrap-hero-homepage.svg";
+import wrapImgDesk from "/src/assets/wrap-hero-homepage.svg";
+import wrapImgMob from "/src/assets/wrap-hero-homepage-mobile.svg";
 
 const Wrap = () => {
   return (
-    <div className="tablet:w-[95%] w-[80%] border-2 border-white rounded-lg m-auto text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
+    <div className="  border-2  border-white rounded-lg m-12 max-tablet:m-auto max-tablet:mt-12 text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
       <div className="flex flex-col px-6 pb-6 pt-8 tablet:w-1/2 p-10">
         <p className="tablet:text-[62px] text-[30px] tablet:leading-[64px] tablet:tracking-[-2.5px] mb-[1rem] font-normal w-[85%]">
           That's a wrap on Google I/O 2023
@@ -17,7 +18,7 @@ const Wrap = () => {
             target="_blank"
             className="w-fit"
           >
-            <button className="bg-blue-500 text-[20px] leading-[24px] hover:bg-blue-700 text-white py-2 px-4 rounded">
+            <button className="bg-blue-500 text-[20px] leading-[24px] hover:bg-blue-700 text-white py-4 px-8 rounded">
               Watch the recaps
             </button>
           </a>
@@ -25,9 +26,14 @@ const Wrap = () => {
       </div>
       <div className="max-tablet:pl-5">
         <img
-          src={wrapImg}
+          src={wrapImgDesk}
           alt="wrap image"
-          className="object-cover h-full w-full"
+          className="object-cover h-full w-full max-tablet:hidden"
+        />
+        <img
+          src={wrapImgMob}
+          alt="wrap image"
+          className="object-cover h-full w-full tablet:hidden"
         />
       </div>
     </div>
