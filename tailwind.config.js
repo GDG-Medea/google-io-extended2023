@@ -14,7 +14,7 @@ export default withMT({
   ],
   theme: {
     screens: {
-      // 'tablet': '1024px',
+      'tablet': '1024px',
 
 
     },

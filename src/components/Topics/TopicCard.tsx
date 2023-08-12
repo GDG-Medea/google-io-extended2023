@@ -1,7 +1,6 @@
 import { useState } from "react";
 const TopicCard = ({ topic }: any) => {
   const [isHovered, setIsHoverd] = useState(false);
-  console.log(topic);
   return (
     <div
       onMouseEnter={() => {

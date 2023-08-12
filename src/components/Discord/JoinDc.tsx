@@ -2,7 +2,7 @@ import GDGLogoDeskImg from "/src/assets/connect-developers-desktop-light.svg";
 import GDGLogoMobImg from "/src/assets/connect-developers-light.svg";
 const JoinDc = () => {
   return (
-    <div className=" border-2 bg-white rounded-lg m-12 max-tablet:m-auto max-tablet:mt-12 flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
+    <div className=" border-2 border-black dark:border-white bg-white text-gray-800 rounded-lg m-12 max-tablet:m-auto max-tablet:mt-12 flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
       <div className="flex flex-col px-6 pb-6 pt-8 tablet:w-1/2 p-10">
         <p className="tablet:text-[62px] text-[30px] tablet:leading-[64px] tablet:tracking-[-2.5px] mb-[1rem] font-normal w-[85%]">
           Connect with developers

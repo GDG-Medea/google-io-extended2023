@@ -19,11 +19,11 @@ const Navbar = () => {
         };
     }, [prevScrollPos]);
     return (
-        <nav className={`p-3 py-6 border-b-2 dark:border-white border-black lg:p-6 w-full shadow-md sticky  z-50 bg-bglight dark:bg-bgdark ${visible ? 'top-0' : '-top-20'} transition duration-300 ease-in-out`}>
+        <nav className={`p-3 py-6 border-b-2 dark:border-white border-black lg:p-6 w-full shadow-md sticky   z-50 bg-bglight dark:bg-bgdark ${visible ? 'top-0' : '-top-24'} transition duration-300 ease-in-out`}>
             <div className="flex justify-between">
                 <div className="flex  items-center gap-2">
 
-                    <a href="/" ><img src="/gdglogo.jpg" className="h-10  rounded-xl" /></a>
+                    <a href="/" ><img src="/src/assets/gdglogo.jpg" className="h-10  rounded-xl" /></a>
                     <div className=""><a href="/"> Google I/O Extended </a></div>
                 </div>
                 <div>

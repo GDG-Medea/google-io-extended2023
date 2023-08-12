@@ -3,11 +3,7 @@ import wrapImgMob from "/src/assets/wrap-hero-homepage-mobile.svg";
 
 const Wrap = () => {
   return (
-<<<<<<< HEAD:src/components/Wrap.tsx
-    <div className=" w-[95%] lg:w-[80%] max-w-full border-2 border-black dark:border-white rounded-lg m-auto dark:text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
-=======
-    <div className="  border-2  border-white rounded-lg m-12 max-tablet:m-auto max-tablet:mt-12 text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
->>>>>>> origin/momo:src/components/GGLIO-Wrap/Wrap.tsx
+    <div className=" w-[95%] lg:w-[80%] max-w-full border-2 bg-bgdark text-white border-white dark:border-white rounded-lg m-auto dark:text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
       <div className="flex flex-col px-6 pb-6 pt-8 tablet:w-1/2 p-10">
         <p className="tablet:text-[62px] text-[30px] tablet:leading-[64px] tablet:tracking-[-2.5px] mb-[1rem] font-normal w-[85%]">
           That's a wrap on Google I/O 2023
@@ -22,11 +18,7 @@ const Wrap = () => {
             target="_blank"
             className="w-fit"
           >
-<<<<<<< HEAD:src/components/Wrap.tsx
             <button className="bg-blue-500 text-[20px] leading-[24px] hover:bg-blue-700  dark:text-white p-3 px-4 border-2 border-transparent hover:text-black hover:border-black dark:hover:border-white  rounded-xl">
-=======
-            <button className="bg-blue-500 text-[20px] leading-[24px] hover:bg-blue-700 text-white py-4 px-8 rounded">
->>>>>>> origin/momo:src/components/GGLIO-Wrap/Wrap.tsx
               Watch the recaps
             </button>
           </a>
