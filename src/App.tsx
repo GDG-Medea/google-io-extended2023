@@ -1,7 +1,10 @@
 
 
 
-import Wrap from "./components/Wrap";
+import "./App.css";
+import Wrap from "./components/GGLIO-Wrap/Wrap";
+import JoinDc from "./components/Discord/JoinDc";
+import Topics from "./components/Topics/Topics";
 
 import './App.css'
 // import "./index.css"
@@ -15,10 +18,12 @@ function App() {
     <div className='w-full h-full   '>
       <Navbar />
       <main className=" max-width  pt-12 lg:p-12 flex flex-col justify-start items-center gap-8 ">
-        <Wrap /> 
+        <Wrap />
+        <JoinDc />
+        <Topics />
         <Carousel />
       </main >
-      <Footer/>
+      <Footer />
     </div>
 
   );
