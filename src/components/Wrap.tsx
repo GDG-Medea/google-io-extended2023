@@ -2,7 +2,7 @@ import wrapImg from "../../public/wrap-hero-homepage.svg";
 
 const Wrap = () => {
   return (
-    <div className="tablet:w-[95%] w-[80%] border-2 border-white rounded-lg m-auto text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
+    <div className=" w-[95%] lg:w-[80%] max-w-full border-2 border-black dark:border-white rounded-lg m-auto dark:text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
       <div className="flex flex-col px-6 pb-6 pt-8 tablet:w-1/2 p-10">
         <p className="tablet:text-[62px] text-[30px] tablet:leading-[64px] tablet:tracking-[-2.5px] mb-[1rem] font-normal w-[85%]">
           That's a wrap on Google I/O 2023
@@ -17,7 +17,7 @@ const Wrap = () => {
             target="_blank"
             className="w-fit"
           >
-            <button className="bg-blue-500 text-[20px] leading-[24px] hover:bg-blue-700 text-white py-2 px-4 rounded">
+            <button className="bg-blue-500 text-[20px] leading-[24px] hover:bg-blue-700  dark:text-white p-3 px-4 border-2 border-transparent hover:text-black hover:border-black dark:hover:border-white  rounded-xl">
               Watch the recaps
             </button>
           </a>
