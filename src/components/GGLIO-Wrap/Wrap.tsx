@@ -3,7 +3,7 @@ import wrapImgMob from "/src/assets/wrap-hero-homepage-mobile.svg";
 
 const Wrap = () => {
   return (
-    <div className=" w-[95%] lg:w-[80%] max-w-full border-2 bg-bgdark text-white border-white dark:border-white rounded-lg m-auto dark:text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
+    <div className=" w-[95%]  max-w-full border-2 bg-bgdark text-white border-white dark:border-white rounded-lg m-auto dark:text-white flex max-tablet:max-w-[500px] max-tablet:flex-col min-h-[407px]">
       <div className="flex flex-col px-6 pb-6 pt-8 tablet:w-1/2 p-10">
         <p className="tablet:text-[62px] text-[30px] tablet:leading-[64px] tablet:tracking-[-2.5px] mb-[1rem] font-normal w-[85%]">
           That's a wrap on Google I/O 2023
