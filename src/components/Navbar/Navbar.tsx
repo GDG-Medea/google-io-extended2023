@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import GDGLogo from "../../assets/gdglogo.jpg"
 const Navbar = () => {
     const [prevScrollPos, setPrevScrollPos] = useState(0);
     const [visible, setVisible] = useState(true);
@@ -23,7 +23,8 @@ const Navbar = () => {
             <div className="flex justify-between">
                 <div className="flex  items-center gap-2">
 
-                    <a href="/" ><img src="/src/assets/gdglogo.jpg" className="h-10  rounded-xl" /></a>
+                    {/* <a href="/" ><img src="/src/assets/gdglogo.jpg" className="h-10  rounded-xl" /></a> */}
+                    <a href="/" ><img src={GDGLogo} className="h-10  rounded-xl" /></a>
                     <div className=""><a href="/"> Google I/O Extended </a></div>
                 </div>
                 <div>
