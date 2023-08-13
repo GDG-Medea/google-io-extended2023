@@ -11,10 +11,10 @@ export default ({
     "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      tablet: "1024px",
-    },
     extend: {
+      screens: {
+        tablet: "1024px",
+      },
       colors: {
         ...colors,
         bglight: "#ffffff",
