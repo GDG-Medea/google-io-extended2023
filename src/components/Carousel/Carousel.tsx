@@ -13,7 +13,7 @@ const OurCarousel = () => {
                             < div className={`${item.color}  rounded-3xl text-white border-2 border-transparent hover:border-black dark:hover:border-white h-full w-full flex flex-col items-center justify-center gap-5 p-12`
                             } key={index}   >
                                 <img
-                                    src={`/src/assets/${item.img}`}
+                                    src={item.img}
                                     alt={`"image ${index + 1}"`}
                                     className=" object-cover  w-32 h-32  rounded-full border-4"
                                 />
