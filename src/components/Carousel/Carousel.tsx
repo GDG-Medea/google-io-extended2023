@@ -5,7 +5,7 @@ import items from "./items"
 const OurCarousel = () => {
     return (
         <div id="content" className='mx-2 w-11/12 p-2 flex flex-col items-center justify-center'>
-            <div className='w-full lg:w-2/5 flex flex-col items-center gap-4'>
+            <div className='w-full lg:w-4/5 flex flex-col items-center gap-4'>
                 <div className='text-4xl font-bold'>Meet Our speakers</div>
                 <Carousel loop={true}>
                     {items.map((item, index) => {
