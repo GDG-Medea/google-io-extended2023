@@ -11,7 +11,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="w-full h-full   ">
-      <div className="fixed bottom-2 right-2 grid ">
+      <div className="fixed bottom-2 right-2  ">
         <button className="px-8 p-4 rounded-xl transition-all opacity-30 hover:opacity-100 border-2 border-transparent text-[1.2em]  hover:bg-gdggreen-600 dark:hover:bg-gdggreen-600 text-white dark:bg-gdggreen-500 bg-gdggreen-500">
           <a href="https://forms.gle/yhJmmZiqU4F8bhqD9">Register Now !</a>
         </button>
