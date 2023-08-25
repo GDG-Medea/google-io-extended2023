@@ -29,7 +29,7 @@ const Navbar = () => {
                 </div>
                 <div>
                     <button className="px-4 p-2 rounded-xl dark:hover:border-white border-2 border-transparent hover:border-black hover:text-black dark:hover:text-white  hover:bg-gdggreen-600 dark:hover:bg-gdggreen-600 text-white dark:bg-gdggreen-500 bg-gdggreen-500">
-                        <a href="https://linktoform.com">Join Us here!</a>
+                        <a href="https://forms.gle/yhJmmZiqU4F8bhqD9">Join Us here!</a>
                     </button>
                 </div>
             </div>
